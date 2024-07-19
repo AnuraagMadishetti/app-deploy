@@ -10,11 +10,11 @@ function App() {
   const [cards, setCards] = useState([]);
   const [selectedCard, setSelectedCard] = useState(null);
 
-  useEffect(() => {
-    axios.get('http://localhost:3000/cards').then((response) => {
-      setCards(response.data.cards);
-    });
-  }, []);
+  // useEffect(() => {
+  //   axios.get('http://localhost:3000/cards').then((response) => {
+  //     setCards(response.data.cards);
+  //   });
+  // }, []);
 
   const handleCardClick = (cardId) => {
     const selected = cards.find((card) => card.id === cardId);
