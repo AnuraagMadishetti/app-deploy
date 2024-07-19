@@ -17,7 +17,7 @@ function Carsoul() {
         />
         
         <Carousel.Caption>
-          
+    <div> This is the new change we added to test redeployment is happening ot not</div>      
         <button
               className="btn btn-info"
               size="large"
