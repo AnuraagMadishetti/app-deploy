@@ -27,7 +27,7 @@ function Carsoul() {
               component={Link}
               to={'/bookSDetails'}
             >
-              Explore
+            
             </button>
          
         
